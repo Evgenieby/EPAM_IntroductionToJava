@@ -23,9 +23,9 @@ public class Application {
 
         CheckEqualityInequality equalityInequality = new CheckEqualityInequality();
 
-        if (equalityInequality.isEquality(firstNumber, secondNumber, thirdNumber)){
+        if (equalityInequality.isEquality(firstNumber, secondNumber, thirdNumber)) {
             System.out.println("Numbers are equal");
-        } else if ( equalityInequality.isInequality(firstNumber, secondNumber, thirdNumber)){
+        } else if ( equalityInequality.isInequality(firstNumber, secondNumber, thirdNumber)) {
             System.out.println("Numbers are not equal");
         } else {
             System.out.println("Only two numbers are equal");
