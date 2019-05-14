@@ -14,10 +14,8 @@ public class Application {
         DataConsoleReader reader = new DataConsoleReader();
         System.out.println("Enter integer a:");
         int firstNumber = reader.readIntNumber();
-
         System.out.println("Enter integer b:");
         int secondNumber = reader.readIntNumber();
-
         System.out.println("Enter integer c:");
         int thirdNumber = reader.readIntNumber();
 

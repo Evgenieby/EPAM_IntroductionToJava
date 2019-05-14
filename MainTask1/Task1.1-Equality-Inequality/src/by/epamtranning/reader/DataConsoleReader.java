@@ -6,9 +6,7 @@ public class DataConsoleReader {
 
     public int readIntNumber() {
         int inputNumber;
-
         Scanner scanner = new Scanner(System.in);
-
         if (scanner.hasNextInt()) {
             inputNumber = scanner.nextInt();
             return inputNumber;
