@@ -43,12 +43,21 @@ public class MinMaxValuesArray {
 
         double localMax = -1; // Возвращаемое значение при отсутствии локального максимума
 
-        for (double[] arr : array) {
-            int rowLength = arr.length - 1;
+        int colLength = array.length - 1;
+
+        for (int i = 1; i < colLength; i++) {
+            int rowLength = array[i].length - 1;
 
             for (int j = 1; j < rowLength; j++) {
-                if ((arr[j] > arr[j - 1]) && (arr[j] > arr[j + 1])) {
-                    localMax = arr[j];
+                if ((array[i][j] > array[i][j - 1])
+                        && (array[i][j] > array[i][j + 1])
+                        && (array[i][j] > array[i - 1][j])
+                        && (array[i][j] > array[i + 1][j])
+                        && (array[i][j] > array[i + 1][j + 1])
+                        && (array[i][j] > array[i - 1][j - 1])
+                        && (array[i][j] > array[i - 1][j + 1])
+                        && (array[i][j] > array[i + 1][j - 1])) {
+                    localMax = array[i][j];
                     return localMax;
                 }
             }
@@ -63,12 +72,21 @@ public class MinMaxValuesArray {
 
         double localMin = -1; // Возвращаемое значение при отсутствии локального минимума
 
-        for (double[] arr : array) {
-            int rowLength = arr.length - 1;
+        int colLength = array.length - 1;
+
+        for (int i = 1; i < colLength; i++) {
+            int rowLength = array[i].length - 1;
 
             for (int j = 1; j < rowLength; j++) {
-                if ((arr[j] < arr[j - 1]) && (arr[j] < arr[j + 1])) {
-                    localMin = arr[j];
+                if ((array[i][j] < array[i][j - 1])
+                     && (array[i][j] < array[i][j + 1])
+                     && (array[i][j] < array[i - 1][j])
+                     && (array[i][j] < array[i + 1][j])
+                     && (array[i][j] < array[i + 1][j + 1])
+                     && (array[i][j] < array[i - 1][j - 1])
+                     && (array[i][j] < array[i - 1][j + 1])
+                     && (array[i][j] < array[i + 1][j - 1])) {
+                    localMin = array[i][j];
                     return localMin;
                 }
             }
