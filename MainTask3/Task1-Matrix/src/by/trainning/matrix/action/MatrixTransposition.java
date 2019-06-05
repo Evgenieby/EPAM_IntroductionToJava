@@ -8,10 +8,10 @@ public class MatrixTransposition {
             throw new IllegalArgumentException("No array");
         }
 
-        int colLength = array.length;
-        int rowLength = array[0].length;
+        int rowLength = array.length;
+        int colLength = array[0].length;
 
-        if (colLength == rowLength) {
+        if (rowLength == colLength) {
             return transposeQuadraticMatrix(array);
         } else {
             return transposeRectangularMatrix(array);

@@ -22,7 +22,7 @@ public class Application {
         int startValue = 2; // Начало диапазона случайных значений
         int endValue = 100; // Конец диапазона случайных значений
 
-        double[][] testArray = new double[col][row];
+        double[][] testArray = new double[row][col];
         ArrayInitialization.initialize(testArray, startValue, endValue);
         printArray(testArray);
 

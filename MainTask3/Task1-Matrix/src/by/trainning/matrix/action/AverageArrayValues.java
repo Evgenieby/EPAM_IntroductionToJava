@@ -14,7 +14,6 @@ public class AverageArrayValues {
                 sumElements += arrElement;
             }
         }
-
         return (sumElements / calcElementAmount(array));
     }
 
@@ -30,7 +29,6 @@ public class AverageArrayValues {
                 productElements *= arrElement;
             }
         }
-
         return (Math.pow(productElements, (1.0 / (double) calcElementAmount(array))));
     }
 
@@ -40,7 +38,6 @@ public class AverageArrayValues {
         for (double[] arr : array) {
             amountElements += arr.length;
         }
-
         return amountElements;
     }
 }

@@ -42,7 +42,6 @@ public class MinMaxValuesArray {
         }
 
         double localMax = -1; // Возвращаемое значение при отсутствии локального максимума
-
         int colLength = array.length - 1;
 
         for (int i = 1; i < colLength; i++) {
@@ -71,7 +70,6 @@ public class MinMaxValuesArray {
         }
 
         double localMin = -1; // Возвращаемое значение при отсутствии локального минимума
-
         int colLength = array.length - 1;
 
         for (int i = 1; i < colLength; i++) {
