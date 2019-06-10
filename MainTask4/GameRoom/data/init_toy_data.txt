@@ -5,6 +5,7 @@ Car, JEEP, group_2, Metal
 Cubes, Cubes, group_2, plastic, SMALL, , 225, animals
 Doll, Barbie, group_1, plastic, small, white, 123, black, swimsuit
 Car, Drive_car, GROUP_4, metal, small, red, 138.5, 4
+Song, Fanny_Cubes, group_1, wood, SMALL, green, 146.2
 Ball, Big_ball, GROUP_3, rubber, Big, yellow, 61.8
 Cubes, Fanny_Cubes, group_1, wood, SMALL, green, 146.2
 Car, Police_Car, GROUP_4, plastic, big, , 183.6, 4

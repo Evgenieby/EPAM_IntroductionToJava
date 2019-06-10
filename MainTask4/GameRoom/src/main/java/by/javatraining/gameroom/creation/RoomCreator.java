@@ -12,6 +12,7 @@ public class RoomCreator {
     private static Logger log = LogManager.getLogger(RoomCreator.class);
     private static final String REGEX = "[, ]+";
 
+
     public static GameRoom createRoom(List<String> stringList) {
         RoomDataValidation dataValidation = new RoomDataValidation();
         GameRoom gameRoom = new GameRoom();

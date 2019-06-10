@@ -4,6 +4,7 @@ import by.javatraining.gameroom.entity.toys.Toy;
 import by.javatraining.gameroom.storage.GameRoomStorage;
 
 import java.util.List;
+import java.util.Objects;
 
 public class GameRoom {
 
@@ -59,5 +60,21 @@ public class GameRoom {
                 ", moneyLimit=" + moneyLimit +
                 ", totalCostToys=" + totalCostToys +
                 '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        GameRoom gameRoom = (GameRoom) o;
+        return Double.compare(gameRoom.moneyLimit, moneyLimit) == 0 &&
+                Double.compare(gameRoom.totalCostToys, totalCostToys) == 0 &&
+                Objects.equals(roomName, gameRoom.roomName) &&
+                Objects.equals(toysList, gameRoom.toysList);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(roomName, toysList, moneyLimit, totalCostToys);
     }
 }

@@ -1,13 +1,18 @@
 package by.javatraining.gameroom.application;
 
 import by.javatraining.gameroom.action.AdditionToy;
+import by.javatraining.gameroom.action.SortGameRoomToys;
 import by.javatraining.gameroom.creation.RoomCreator;
 import by.javatraining.gameroom.entity.rooms.GameRoom;
 import by.javatraining.gameroom.entity.toys.Toy;
 import by.javatraining.gameroom.exception.DataFileReaderException;
 import by.javatraining.gameroom.reader.DataReaderFromFile;
+import by.javatraining.gameroom.repository.ToysRepository;
+import by.javatraining.gameroom.repository.ToysRepositoryImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+
+import java.util.List;
 
 public class Application {
 
@@ -34,9 +39,32 @@ public class Application {
         /* Добавляем игрушки из файла. */
         AdditionToy roomAction = new AdditionToy(gameRoom);
         roomAction.addToyToRoom(reader.readFile(DATA_TOY_FILE_NAME));
+        printToysList(gameRoom.getToysList());
 
-        for (Toy toy : gameRoom.getToysList()) {
-            System.out.println(toy.toString());
+        /* Сортировка игрушек в комнате по возрастным группам. */
+        SortGameRoomToys.sortToysByAgeGroup(gameRoom);
+        printToysList(gameRoom.getToysList());
+
+        /* Сортировка игрушек в комнате по размеру и стоимости. */
+        SortGameRoomToys.sortToysBySizeAndCost(gameRoom);
+        printToysList(gameRoom.getToysList());
+
+        /* Поиск игрушек по размеру. */
+        String size = "Middle";
+        ToysRepository repository = new ToysRepositoryImpl();
+        List<Toy> toyList = repository.findToysBySize(size);
+
+        if (!toyList.isEmpty()) {
+            printToysList(toyList);
+        } else {
+            log.info("Toys with size " + size + " not found");
         }
     }
+
+     private void printToysList(List<Toy> toyList) {
+         for (Toy toy : toyList) {
+             System.out.println(toy.toString());
+         }
+         System.out.println();
+     }
 }

@@ -3,6 +3,7 @@ package by.javatraining.gameroom.action;
 import by.javatraining.gameroom.creation.ToyFactory;
 import by.javatraining.gameroom.entity.rooms.GameRoom;
 import by.javatraining.gameroom.entity.toys.Toy;
+import by.javatraining.gameroom.exception.IncorrectClassNameException;
 import by.javatraining.gameroom.repository.ToysRepositoryImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -25,7 +26,14 @@ public class AdditionToy {
     public void addToyToRoom(List<String> stringList) {
         for (String line : stringList) {
             String[] objectParameters = line.split(REGEX);
-            Toy toy = toyFactory.createToy(objectParameters);
+            Toy toy;
+
+            try {
+                toy = toyFactory.createToy(objectParameters);
+            } catch (IncorrectClassNameException e) {
+                log.error(e.getMessage());
+                continue;
+            }
 
             if (isInMoneyLimit(toy)) {
                 toysRepository.save(toy);

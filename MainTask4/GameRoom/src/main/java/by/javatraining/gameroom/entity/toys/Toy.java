@@ -3,6 +3,8 @@ package by.javatraining.gameroom.entity.toys;
 import by.javatraining.gameroom.enums.Age;
 import by.javatraining.gameroom.enums.Size;
 
+import java.util.Objects;
+
 public abstract class Toy {
 
     private String toyName;
@@ -13,13 +15,13 @@ public abstract class Toy {
     private double cost;
 
 /* Конструктор со значениями по умолчанию. */
-    public Toy() {
-        this.toyName = "Toy";
+    public Toy(String toyName, String material) {
+        this.toyName = toyName;
         this.ageGroup = Age.GROUP_1;
-        this.material = "Plastic";
+        this.material = material;
         this.size = Size.MIDDLE;
         this.color = "multicolored";
-        this.cost = 10.0;
+        this.cost = 0.0;
     }
 
     public String getToyName() {
@@ -72,13 +74,29 @@ public abstract class Toy {
 
     @Override
     public String toString() {
-        return "Toy{" +
-                "toyName='" + toyName + '\'' +
+        return "toyName='" + toyName + '\'' +
                 ", ageGroup=" + ageGroup +
                 ", material='" + material + '\'' +
                 ", size=" + size +
                 ", color='" + color + '\'' +
-                ", cost=" + cost +
-                '}';
+                ", cost=" + cost + ", ";
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Toy toy = (Toy) o;
+        return Double.compare(toy.cost, cost) == 0 &&
+                Objects.equals(toyName, toy.toyName) &&
+                ageGroup == toy.ageGroup &&
+                Objects.equals(material, toy.material) &&
+                size == toy.size &&
+                Objects.equals(color, toy.color);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(toyName, ageGroup, material, size, color, cost);
     }
 }

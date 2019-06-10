@@ -15,7 +15,7 @@ public class ToyDataValidation {
         }
 
         for (Age age : Age.values()) {
-            if (age.name().equals(parameter)) {
+            if (age.name().equals(parameter.toUpperCase())) {
                 return true;
             }
         }
@@ -32,7 +32,7 @@ public class ToyDataValidation {
         }
 
         for (Size size : Size.values()) {
-            if (size.name().equals(parameter)) {
+            if (size.name().equals(parameter.toUpperCase())) {
                 return true;
             }
         }

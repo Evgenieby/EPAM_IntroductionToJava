@@ -50,7 +50,7 @@ public class ToyCreator {
         initializeToy(cubesToy,objectParameters);
 
         if (objectParameters.length > 7 && dataValidation.validatePictureToy(objectParameters[7])) {
-            cubesToy.setPicture(objectParameters[7]);
+            cubesToy.setPictureOnSides(objectParameters[7]);
         }
 
         return cubesToy;
@@ -62,7 +62,7 @@ public class ToyCreator {
             toy.setToyName(objectParameters[1]);
         }
 
-        if (objectParameters.length > 2 && dataValidation.validateAgeToy(objectParameters[2].toUpperCase())) {
+        if (objectParameters.length > 2 && dataValidation.validateAgeToy(objectParameters[2])) {
             toy.setAgeGroup(Age.valueOf(objectParameters[2].toUpperCase()));
         }
 
@@ -70,7 +70,7 @@ public class ToyCreator {
             toy.setMaterial(objectParameters[3]);
         }
 
-        if (objectParameters.length > 4 && dataValidation.validateSizeToy(objectParameters[4].toUpperCase())) {
+        if (objectParameters.length > 4 && dataValidation.validateSizeToy(objectParameters[4])) {
             toy.setSize(Size.valueOf(objectParameters[4].toUpperCase()));
         }
 

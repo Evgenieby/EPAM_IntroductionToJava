@@ -1,12 +1,14 @@
 package by.javatraining.gameroom.entity.toys;
 
+import java.util.Objects;
+
 public class Doll extends Toy {
 
     private String hairColor;
     private String clothes;
 
     public Doll() {
-        super();
+        super("Doll", "Plastic");
         this.hairColor = "black";
         this.clothes = "dress";
     }
@@ -29,5 +31,29 @@ public class Doll extends Toy {
 
     public void setClothes(String clothes) {
         this.clothes = clothes;
+    }
+
+    @Override
+    public String toString() {
+        return "Doll{" +
+                super.toString() +
+                "hairColor='" + hairColor + '\'' +
+                ", clothes='" + clothes + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+        Doll doll = (Doll) o;
+        return Objects.equals(hairColor, doll.hairColor) &&
+                Objects.equals(clothes, doll.clothes);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(super.hashCode(), hairColor, clothes);
     }
 }

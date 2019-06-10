@@ -4,6 +4,7 @@ import by.javatraining.gameroom.entity.toys.Toy;
 import by.javatraining.gameroom.enums.Age;
 import by.javatraining.gameroom.enums.Size;
 import by.javatraining.gameroom.storage.GameRoomStorage;
+import by.javatraining.gameroom.validation.ToyDataValidation;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -11,6 +12,7 @@ import java.util.List;
 public class ToysRepositoryImpl implements ToysRepository {
 
     private GameRoomStorage storage = GameRoomStorage.getStorage();
+    private ToyDataValidation dataValidation = new ToyDataValidation();
 
     @Override
     public void save(Toy toy) {
@@ -27,10 +29,15 @@ public class ToysRepositoryImpl implements ToysRepository {
         List<Toy> toyList = storage.getToyList();
         List<Toy> resultToyList = new ArrayList<>();
 
-        for (Toy toy : toyList)
+        if(!dataValidation.validateSizeToy(size)) {
+            return resultToyList;
+        }
+
+        for (Toy toy : toyList) {
             if (toy.getSize().equals(Size.valueOf(size.toUpperCase()))) {
                 resultToyList.add(toy);
             }
+        }
         return resultToyList;
     }
 
@@ -39,10 +46,15 @@ public class ToysRepositoryImpl implements ToysRepository {
         List<Toy> toyList = storage.getToyList();
         List<Toy> resultToyList = new ArrayList<>();
 
-        for (Toy toy : toyList)
-            if (toy.getAgeGroup().equals(Age.valueOf(ageGroup))) {
+        if(!dataValidation.validateSizeToy(ageGroup)) {
+            return resultToyList;
+        }
+
+        for (Toy toy : toyList) {
+            if (toy.getAgeGroup().equals(Age.valueOf(ageGroup.toUpperCase()))) {
                 resultToyList.add(toy);
             }
+        }
         return resultToyList;
     }
 
@@ -52,7 +64,7 @@ public class ToysRepositoryImpl implements ToysRepository {
         List<Toy> resultToyList = new ArrayList<>();
 
         for (Toy toy : toyList)
-            if (toy.getMaterial().equals(material) && (toy.getCost() < maxCost)) {
+            if (toy.getMaterial().equals(material) && (toy.getCost() <= maxCost)) {
                 resultToyList.add(toy);
             }
         return resultToyList;
