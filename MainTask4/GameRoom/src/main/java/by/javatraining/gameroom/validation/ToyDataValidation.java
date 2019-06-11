@@ -6,10 +6,10 @@ import by.javatraining.gameroom.enums.Size;
 public class ToyDataValidation {
 
     public boolean validateNameToy(String parameter) {
-        return (parameter != null);
+        return (parameter != null && parameter.length() != 0);
     }
 
-    public boolean validateAgeToy(String parameter) {
+    public boolean validateAgeGroupToy(String parameter) {
         if (parameter == null) {
             return false;
         }
@@ -23,7 +23,7 @@ public class ToyDataValidation {
     }
 
     public boolean validateMaterialToy(String parameter) {
-        return (parameter != null);
+        return (parameter != null && parameter.length() != 0);
     }
 
     public boolean validateSizeToy(String parameter) {
@@ -40,7 +40,7 @@ public class ToyDataValidation {
     }
 
     public boolean validateColorToy(String parameter) {
-        return (parameter != null);
+        return (parameter != null && parameter.length() != 0);
     }
 
     public boolean validateCostToy(String parameter) {
@@ -70,18 +70,18 @@ public class ToyDataValidation {
     }
 
     public boolean validateHairColorToy(String parameter) {
-        return (parameter != null);
+        return (parameter != null && parameter.length() != 0);
     }
 
     public boolean validateClothesToy(String parameter) {
-        return (parameter != null);
+        return (parameter != null && parameter.length() != 0);
     }
 
     public boolean validateShapeToy(String parameter) {
-        return (parameter != null);
+        return (parameter != null && parameter.length() != 0);
     }
 
     public boolean validatePictureToy(String parameter) {
-        return (parameter != null);
+        return (parameter != null && parameter.length() != 0);
     }
 }

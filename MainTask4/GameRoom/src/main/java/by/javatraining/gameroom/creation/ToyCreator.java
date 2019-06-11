@@ -62,7 +62,7 @@ public class ToyCreator {
             toy.setToyName(objectParameters[1]);
         }
 
-        if (objectParameters.length > 2 && dataValidation.validateAgeToy(objectParameters[2])) {
+        if (objectParameters.length > 2 && dataValidation.validateAgeGroupToy(objectParameters[2])) {
             toy.setAgeGroup(Age.valueOf(objectParameters[2].toUpperCase()));
         }
 

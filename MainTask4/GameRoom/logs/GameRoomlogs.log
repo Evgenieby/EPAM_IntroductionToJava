@@ -1,0 +1,15 @@
+[INFO ] 2019-06-12 01:19:50.470 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-12 01:19:50.479 [main] RoomCreator - Room successfully created: RoomForChildren
+[INFO ] 2019-06-12 01:19:50.490 [main] AdditionToy - Toy successfully added: Car
+[INFO ] 2019-06-12 01:19:50.490 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-12 01:19:50.491 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-12 01:19:50.492 [main] AdditionToy - Toy successfully added: JEEP
+[INFO ] 2019-06-12 01:19:50.493 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-12 01:19:50.493 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-12 01:19:50.494 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-12 01:19:50.494 [main] AdditionToy - Incorrect toy class name: SONG
+[INFO ] 2019-06-12 01:19:50.494 [main] AdditionToy - Toy successfully added: Ball
+[INFO ] 2019-06-12 01:19:50.495 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[INFO ] 2019-06-12 01:19:50.496 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-12 01:19:50.496 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 01:19:50.496 [main] AdditionToy - Toy successfully added: Dancer

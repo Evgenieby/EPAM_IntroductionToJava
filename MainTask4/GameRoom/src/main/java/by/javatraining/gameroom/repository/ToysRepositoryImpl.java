@@ -46,7 +46,7 @@ public class ToysRepositoryImpl implements ToysRepository {
         List<Toy> toyList = storage.getToyList();
         List<Toy> resultToyList = new ArrayList<>();
 
-        if(!dataValidation.validateSizeToy(ageGroup)) {
+        if(!dataValidation.validateAgeGroupToy(ageGroup)) {
             return resultToyList;
         }
 

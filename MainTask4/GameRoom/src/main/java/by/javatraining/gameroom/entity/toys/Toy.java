@@ -14,7 +14,7 @@ public abstract class Toy {
     private String color;
     private double cost;
 
-/* Конструктор со значениями по умолчанию. */
+    /* Конструктор со значениями по умолчанию. */
     public Toy(String toyName, String material) {
         this.toyName = toyName;
         this.ageGroup = Age.GROUP_1;

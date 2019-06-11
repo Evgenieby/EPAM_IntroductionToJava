@@ -13,6 +13,7 @@ public class GameRoom {
     private double moneyLimit;
     private double totalCostToys;
 
+    /* Конструктор со значениями по умолчанию. */
     public GameRoom() {
         this.toysList = GameRoomStorage.getStorage().getToyList();
         this.roomName = "Default room";

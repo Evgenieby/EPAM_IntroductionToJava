@@ -3,7 +3,7 @@ package by.javatraining.gameroom.validation;
 public class RoomDataValidation {
 
     public boolean validateNameRoom(String parameter) {
-        return (parameter != null);
+        return (parameter != null && parameter.length() != 0);
     }
 
     public boolean validateMoneyLimit(String parameter) {

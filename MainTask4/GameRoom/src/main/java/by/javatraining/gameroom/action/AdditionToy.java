@@ -15,7 +15,7 @@ public class AdditionToy {
     private static Logger log = LogManager.getLogger(AdditionToy.class);
 
     private GameRoom gameRoom;
-    private static final String REGEX = "[, ]+";
+    private static final String REGEX = "[ ,]";
     private ToyFactory toyFactory = new ToyFactory();
     private ToysRepositoryImpl toysRepository = new ToysRepositoryImpl();
 
