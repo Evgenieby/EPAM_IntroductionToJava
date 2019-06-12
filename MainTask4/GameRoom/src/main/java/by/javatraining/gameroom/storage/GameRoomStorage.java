@@ -7,10 +7,10 @@ import org.apache.logging.log4j.Logger;
 import java.util.ArrayList;
 import java.util.List;
 
+/* Имитация базы данных. */
 public class GameRoomStorage {
 
     private static Logger log = LogManager.getLogger(GameRoomStorage.class);
-
 
     /* Переменная, которая хранит ссылку на единственный экземпляр объекта класса GameRoomStorage. */
     private static final GameRoomStorage STORAGE;

@@ -37,7 +37,7 @@ public class Application {
         GameRoom gameRoom = RoomCreator.createRoom(reader.readFile(DATA_ROOM_FILE_NAME));
 
         /* Добавляем игрушки из файла. */
-        AdditionToy roomAction = new AdditionToy(gameRoom);
+        AdditionToy roomAction = new AdditionToy(gameRoom, new ToysRepositoryImpl());
         roomAction.addToyToRoom(reader.readFile(DATA_TOY_FILE_NAME));
         printToysList(gameRoom.getToysList());
 

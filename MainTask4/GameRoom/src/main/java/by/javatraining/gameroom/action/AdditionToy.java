@@ -4,7 +4,7 @@ import by.javatraining.gameroom.creation.ToyFactory;
 import by.javatraining.gameroom.entity.rooms.GameRoom;
 import by.javatraining.gameroom.entity.toys.Toy;
 import by.javatraining.gameroom.exception.IncorrectClassNameException;
-import by.javatraining.gameroom.repository.ToysRepositoryImpl;
+import by.javatraining.gameroom.repository.ToysRepository;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -14,18 +14,20 @@ public class AdditionToy {
 
     private static Logger log = LogManager.getLogger(AdditionToy.class);
 
-    private GameRoom gameRoom;
-    private static final String REGEX = "[ ,]";
+    private static final String SEPARATOR_REGEX = "[ ,|!]";
     private ToyFactory toyFactory = new ToyFactory();
-    private ToysRepositoryImpl toysRepository = new ToysRepositoryImpl();
+    private GameRoom gameRoom;
+    private ToysRepository toysRepository;
 
-    public AdditionToy(GameRoom gameRoom) {
+    public AdditionToy(GameRoom gameRoom, ToysRepository toysRepository) {
         this.gameRoom = gameRoom;
+        this.toysRepository = toysRepository;
     }
 
+    /* Добавление игрушки в комнату. */
     public void addToyToRoom(List<String> stringList) {
         for (String line : stringList) {
-            String[] objectParameters = line.split(REGEX);
+            String[] objectParameters = line.split(SEPARATOR_REGEX);
             Toy toy;
 
             try {
@@ -37,6 +39,7 @@ public class AdditionToy {
 
             if (isInMoneyLimit(toy)) {
                 toysRepository.save(toy);
+                gameRoom.setTotalCostToys(gameRoom.getTotalCostToys() + toy.getCost()); // Увеличение общей стоимости игрушек
                 log.info("Toy successfully added: " + toy.getToyName());
             }
         }
@@ -48,10 +51,6 @@ public class AdditionToy {
         double moneyLimit = gameRoom.getMoneyLimit();
         double tempTotalCost = totalCostToys + toy.getCost();
 
-       if (tempTotalCost <= moneyLimit) {
-           gameRoom.setTotalCostToys(tempTotalCost); // Увеличение общей стоимости игрушек
-           return true;
-       }
-       return false;
+        return tempTotalCost <= moneyLimit;
     }
 }

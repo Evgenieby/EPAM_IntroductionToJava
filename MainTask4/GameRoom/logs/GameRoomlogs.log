@@ -13,3 +13,232 @@
 [INFO ] 2019-06-12 01:19:50.496 [main] AdditionToy - Toy successfully added: Police_Car
 [INFO ] 2019-06-12 01:19:50.496 [main] AdditionToy - Toy successfully added: Dancer
 [INFO ] 2019-06-12 01:19:50.496 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 22:58:17.510 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-12 22:58:17.513 [main] RoomCreator - Room successfully created: RoomForChildren
+[INFO ] 2019-06-12 22:58:46.557 [main] AdditionToy - Toy successfully added: Car
+[INFO ] 2019-06-12 22:58:46.558 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-12 22:58:46.558 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-12 22:58:46.558 [main] AdditionToy - Toy successfully added: JEEP
+[INFO ] 2019-06-12 22:58:46.559 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-12 22:58:46.560 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-12 22:58:46.560 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-12 22:58:46.560 [main] AdditionToy - Incorrect toy class name: SONG
+[INFO ] 2019-06-12 22:58:46.561 [main] AdditionToy - Toy successfully added: Ball
+[INFO ] 2019-06-12 22:58:46.562 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[INFO ] 2019-06-12 22:58:46.562 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-12 22:58:46.562 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 22:58:46.562 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:28:34.119 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-12 23:28:34.121 [main] RoomCreator - Room successfully created: RoomForChildren
+[WARN ] 2019-06-12 23:28:34.136 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:28:34.136 [main] ToyDataValidation - Incorrect toy size: Wood
+[ERROR] 2019-06-12 23:28:34.136 [main] ToyDataValidation - Incorrect toy cost: Blue
+[ERROR] 2019-06-12 23:28:34.137 [main] ToyDataValidation - Incorrect toy number wheels: 115.8
+[INFO ] 2019-06-12 23:28:34.137 [main] AdditionToy - Toy successfully added: 
+[INFO ] 2019-06-12 23:28:34.138 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-12 23:28:34.138 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-12 23:28:34.139 [main] AdditionToy - Toy successfully added: JEEP
+[ERROR] 2019-06-12 23:28:34.140 [main] ToyDataValidation - Incorrect toy cost: 
+[INFO ] 2019-06-12 23:28:34.140 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-12 23:28:34.141 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-12 23:28:34.142 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-12 23:28:34.144 [main] AdditionToy - Incorrect toy class name: SONG
+[WARN ] 2019-06-12 23:28:34.144 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:28:34.144 [main] ToyDataValidation - Incorrect toy size: rubber
+[ERROR] 2019-06-12 23:28:34.144 [main] ToyDataValidation - Incorrect toy cost: yellow
+[INFO ] 2019-06-12 23:28:34.145 [main] AdditionToy - Toy successfully added: 
+[INFO ] 2019-06-12 23:28:34.146 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[ERROR] 2019-06-12 23:28:34.147 [main] ToyDataValidation - Incorrect toy cost: 
+[ERROR] 2019-06-12 23:28:34.147 [main] ToyDataValidation - Incorrect toy number wheels: 183.6
+[INFO ] 2019-06-12 23:28:34.147 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-12 23:28:34.147 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:28:34.147 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:30:00.651 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-12 23:30:00.654 [main] RoomCreator - Room successfully created: RoomForChildren
+[WARN ] 2019-06-12 23:30:00.666 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:30:00.666 [main] ToyDataValidation - Incorrect toy size: Wood
+[ERROR] 2019-06-12 23:30:00.667 [main] ToyDataValidation - Incorrect toy cost: Blue
+[ERROR] 2019-06-12 23:30:00.667 [main] ToyDataValidation - Incorrect toy number wheels: 115.8
+[INFO ] 2019-06-12 23:30:00.667 [main] AdditionToy - Toy successfully added: 
+[INFO ] 2019-06-12 23:30:00.668 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-12 23:30:00.669 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-12 23:30:00.670 [main] AdditionToy - Toy successfully added: JEEP
+[ERROR] 2019-06-12 23:30:00.671 [main] ToyDataValidation - Incorrect toy cost: 
+[INFO ] 2019-06-12 23:30:00.671 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-12 23:30:00.671 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-12 23:30:00.672 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-12 23:30:00.672 [main] AdditionToy - Incorrect toy class name: SONG
+[WARN ] 2019-06-12 23:30:00.672 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:30:00.672 [main] ToyDataValidation - Incorrect toy size: rubber
+[ERROR] 2019-06-12 23:30:00.673 [main] ToyDataValidation - Incorrect toy cost: yellow
+[INFO ] 2019-06-12 23:30:00.673 [main] AdditionToy - Toy successfully added: 
+[INFO ] 2019-06-12 23:30:00.673 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[ERROR] 2019-06-12 23:30:00.674 [main] ToyDataValidation - Incorrect toy cost: 
+[ERROR] 2019-06-12 23:30:00.674 [main] ToyDataValidation - Incorrect toy number wheels: 183.6
+[INFO ] 2019-06-12 23:30:00.675 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-12 23:30:00.675 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:30:00.676 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:30:37.709 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-12 23:30:37.722 [main] RoomCreator - Room successfully created: RoomForChildren
+[WARN ] 2019-06-12 23:30:37.744 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:30:37.744 [main] ToyDataValidation - Incorrect toy size: Wood
+[ERROR] 2019-06-12 23:30:37.744 [main] ToyDataValidation - Incorrect toy cost: Blue
+[ERROR] 2019-06-12 23:30:37.745 [main] ToyDataValidation - Incorrect toy number wheels: 115.8
+[INFO ] 2019-06-12 23:30:37.745 [main] AdditionToy - Toy successfully added: 
+[INFO ] 2019-06-12 23:30:37.746 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-12 23:30:37.746 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-12 23:30:37.747 [main] AdditionToy - Toy successfully added: JEEP
+[ERROR] 2019-06-12 23:30:37.747 [main] ToyDataValidation - Incorrect toy cost: 
+[INFO ] 2019-06-12 23:30:37.747 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-12 23:30:37.748 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-12 23:30:37.748 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-12 23:30:37.748 [main] AdditionToy - Incorrect toy class name: SONG
+[WARN ] 2019-06-12 23:30:37.749 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:30:37.749 [main] ToyDataValidation - Incorrect toy size: rubber
+[ERROR] 2019-06-12 23:30:37.750 [main] ToyDataValidation - Incorrect toy cost: yellow
+[INFO ] 2019-06-12 23:30:37.750 [main] AdditionToy - Toy successfully added: 
+[INFO ] 2019-06-12 23:30:37.750 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[ERROR] 2019-06-12 23:30:37.750 [main] ToyDataValidation - Incorrect toy cost: 
+[ERROR] 2019-06-12 23:30:37.750 [main] ToyDataValidation - Incorrect toy number wheels: 183.6
+[INFO ] 2019-06-12 23:30:37.751 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-12 23:30:37.751 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:30:37.751 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:31:35.086 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-12 23:31:35.088 [main] RoomCreator - Room successfully created: RoomForChildren
+[WARN ] 2019-06-12 23:31:35.098 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:31:35.099 [main] ToyDataValidation - Incorrect toy size: Wood
+[ERROR] 2019-06-12 23:31:35.099 [main] ToyDataValidation - Incorrect toy cost: Blue
+[ERROR] 2019-06-12 23:31:35.099 [main] ToyDataValidation - Incorrect toy number wheels: 115.8
+[INFO ] 2019-06-12 23:31:35.099 [main] AdditionToy - Toy successfully added: 
+[INFO ] 2019-06-12 23:31:35.100 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-12 23:31:35.100 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-12 23:31:35.101 [main] AdditionToy - Toy successfully added: JEEP
+[ERROR] 2019-06-12 23:31:35.101 [main] ToyDataValidation - Incorrect toy cost: 
+[INFO ] 2019-06-12 23:31:35.101 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-12 23:31:35.102 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-12 23:31:35.103 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-12 23:31:35.103 [main] AdditionToy - Incorrect toy class name: SONG
+[WARN ] 2019-06-12 23:31:35.103 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:31:35.103 [main] ToyDataValidation - Incorrect toy size: rubber
+[ERROR] 2019-06-12 23:31:35.104 [main] ToyDataValidation - Incorrect toy cost: yellow
+[INFO ] 2019-06-12 23:31:35.104 [main] AdditionToy - Toy successfully added: 
+[INFO ] 2019-06-12 23:31:35.105 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[ERROR] 2019-06-12 23:31:35.105 [main] ToyDataValidation - Incorrect toy cost: 
+[ERROR] 2019-06-12 23:31:35.105 [main] ToyDataValidation - Incorrect toy number wheels: 183.6
+[INFO ] 2019-06-12 23:31:35.105 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-12 23:31:35.105 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:31:35.106 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:34:37.829 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-12 23:34:37.832 [main] RoomCreator - Room successfully created: RoomForChildren
+[WARN ] 2019-06-12 23:34:37.849 [main] ToyDataValidation - Incorrect toy name: 
+[WARN ] 2019-06-12 23:34:37.849 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:34:37.849 [main] ToyDataValidation - Incorrect toy size: Wood
+[ERROR] 2019-06-12 23:34:37.849 [main] ToyDataValidation - Incorrect toy cost: Blue
+[ERROR] 2019-06-12 23:34:37.850 [main] ToyDataValidation - Incorrect toy number wheels: 115.8
+[INFO ] 2019-06-12 23:34:37.850 [main] AdditionToy - Toy successfully added: Car
+[INFO ] 2019-06-12 23:34:37.851 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-12 23:34:37.851 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-12 23:34:37.851 [main] AdditionToy - Toy successfully added: JEEP
+[ERROR] 2019-06-12 23:34:37.852 [main] ToyDataValidation - Incorrect toy cost: 
+[INFO ] 2019-06-12 23:34:37.852 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-12 23:34:37.853 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-12 23:34:37.853 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-12 23:34:37.853 [main] AdditionToy - Incorrect toy class name: SONG
+[WARN ] 2019-06-12 23:34:37.854 [main] ToyDataValidation - Incorrect toy name: 
+[WARN ] 2019-06-12 23:34:37.854 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:34:37.854 [main] ToyDataValidation - Incorrect toy size: rubber
+[ERROR] 2019-06-12 23:34:37.854 [main] ToyDataValidation - Incorrect toy cost: yellow
+[INFO ] 2019-06-12 23:34:37.854 [main] AdditionToy - Toy successfully added: Ball
+[INFO ] 2019-06-12 23:34:37.854 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[ERROR] 2019-06-12 23:34:37.855 [main] ToyDataValidation - Incorrect toy cost: 
+[ERROR] 2019-06-12 23:34:37.855 [main] ToyDataValidation - Incorrect toy number wheels: 183.6
+[INFO ] 2019-06-12 23:34:37.855 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-12 23:34:37.855 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:34:37.855 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:36:19.565 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-12 23:36:19.568 [main] RoomCreator - Room successfully created: RoomForChildren
+[WARN ] 2019-06-12 23:36:19.595 [main] ToyDataValidation - Incorrect toy name: 
+[WARN ] 2019-06-12 23:36:19.595 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:36:19.595 [main] ToyDataValidation - Incorrect toy size: Wood
+[ERROR] 2019-06-12 23:36:19.596 [main] ToyDataValidation - Incorrect toy cost: Blue
+[ERROR] 2019-06-12 23:36:19.596 [main] ToyDataValidation - Incorrect toy number wheels: 115.8
+[INFO ] 2019-06-12 23:36:19.596 [main] AdditionToy - Toy successfully added: Car
+[INFO ] 2019-06-12 23:36:19.597 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-12 23:36:19.598 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-12 23:36:19.598 [main] AdditionToy - Toy successfully added: JEEP
+[WARN ] 2019-06-12 23:36:19.599 [main] ToyDataValidation - Incorrect toy color: 
+[ERROR] 2019-06-12 23:36:19.599 [main] ToyDataValidation - Incorrect toy cost: 
+[INFO ] 2019-06-12 23:36:19.599 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-12 23:36:19.600 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-12 23:36:19.600 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-12 23:36:19.600 [main] AdditionToy - Incorrect toy class name: SONG
+[WARN ] 2019-06-12 23:36:19.600 [main] ToyDataValidation - Incorrect toy name: 
+[WARN ] 2019-06-12 23:36:19.600 [main] ToyDataValidation - Incorrect toy age_group: 
+[WARN ] 2019-06-12 23:36:19.600 [main] ToyDataValidation - Incorrect toy size: rubber
+[ERROR] 2019-06-12 23:36:19.601 [main] ToyDataValidation - Incorrect toy cost: yellow
+[INFO ] 2019-06-12 23:36:19.601 [main] AdditionToy - Toy successfully added: Ball
+[INFO ] 2019-06-12 23:36:19.601 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[WARN ] 2019-06-12 23:36:19.601 [main] ToyDataValidation - Incorrect toy color: 
+[ERROR] 2019-06-12 23:36:19.601 [main] ToyDataValidation - Incorrect toy cost: 
+[ERROR] 2019-06-12 23:36:19.601 [main] ToyDataValidation - Incorrect toy number wheels: 183.6
+[INFO ] 2019-06-12 23:36:19.601 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-12 23:36:19.602 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:36:19.602 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:46:00.240 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-12 23:46:00.243 [main] RoomCreator - Room successfully created: RoomForChildren
+[WARN ] 2019-06-12 23:46:00.259 [main] ToyDataValidation - Incorrect toy name
+[WARN ] 2019-06-12 23:46:00.259 [main] ToyDataValidation - Incorrect toy age-group: 
+[WARN ] 2019-06-12 23:46:00.259 [main] ToyDataValidation - Incorrect toy size: Wood
+[ERROR] 2019-06-12 23:46:00.260 [main] ToyDataValidation - Incorrect toy cost: Blue
+[ERROR] 2019-06-12 23:46:00.260 [main] ToyDataValidation - Incorrect toy number wheels: 115.8
+[INFO ] 2019-06-12 23:46:00.260 [main] AdditionToy - Toy successfully added: Car
+[INFO ] 2019-06-12 23:46:00.261 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-12 23:46:00.261 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-12 23:46:00.261 [main] AdditionToy - Toy successfully added: JEEP
+[WARN ] 2019-06-12 23:46:00.262 [main] ToyDataValidation - Incorrect toy color
+[ERROR] 2019-06-12 23:46:00.262 [main] ToyDataValidation - Incorrect toy cost: 
+[INFO ] 2019-06-12 23:46:00.262 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-12 23:46:00.263 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-12 23:46:00.263 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-12 23:46:00.264 [main] AdditionToy - Incorrect toy class name: SONG
+[WARN ] 2019-06-12 23:46:00.264 [main] ToyDataValidation - Incorrect toy name
+[WARN ] 2019-06-12 23:46:00.264 [main] ToyDataValidation - Incorrect toy age-group: 
+[WARN ] 2019-06-12 23:46:00.264 [main] ToyDataValidation - Incorrect toy size: rubber
+[ERROR] 2019-06-12 23:46:00.264 [main] ToyDataValidation - Incorrect toy cost: yellow
+[INFO ] 2019-06-12 23:46:00.264 [main] AdditionToy - Toy successfully added: Ball
+[INFO ] 2019-06-12 23:46:00.264 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[WARN ] 2019-06-12 23:46:00.265 [main] ToyDataValidation - Incorrect toy color
+[ERROR] 2019-06-12 23:46:00.265 [main] ToyDataValidation - Incorrect toy cost: 
+[ERROR] 2019-06-12 23:46:00.265 [main] ToyDataValidation - Incorrect toy number wheels: 183.6
+[INFO ] 2019-06-12 23:46:00.265 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-12 23:46:00.265 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-12 23:46:00.265 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-13 00:47:54.007 [main] GameRoomStorage - Storage created.
+[INFO ] 2019-06-13 00:47:54.010 [main] RoomCreator - Room successfully created: RoomForChildren
+[WARN ] 2019-06-13 00:47:54.023 [main] ToyDataValidation - Incorrect toy name
+[WARN ] 2019-06-13 00:47:54.023 [main] ToyDataValidation - Incorrect toy age-group: 
+[WARN ] 2019-06-13 00:47:54.023 [main] ToyDataValidation - Incorrect toy size: Wood
+[ERROR] 2019-06-13 00:47:54.023 [main] ToyDataValidation - Incorrect toy cost: Blue
+[ERROR] 2019-06-13 00:47:54.023 [main] ToyDataValidation - Incorrect toy number wheels: 115.8
+[INFO ] 2019-06-13 00:47:54.023 [main] AdditionToy - Toy successfully added: Car
+[INFO ] 2019-06-13 00:47:54.024 [main] AdditionToy - Toy successfully added: SoccerBall
+[INFO ] 2019-06-13 00:47:54.024 [main] AdditionToy - Toy successfully added: Basketball
+[INFO ] 2019-06-13 00:47:54.025 [main] AdditionToy - Toy successfully added: JEEP
+[WARN ] 2019-06-13 00:47:54.025 [main] ToyDataValidation - Incorrect toy color
+[ERROR] 2019-06-13 00:47:54.025 [main] ToyDataValidation - Incorrect toy cost: 
+[INFO ] 2019-06-13 00:47:54.026 [main] AdditionToy - Toy successfully added: Cubes
+[INFO ] 2019-06-13 00:47:54.026 [main] AdditionToy - Toy successfully added: Barbie
+[INFO ] 2019-06-13 00:47:54.026 [main] AdditionToy - Toy successfully added: Drive_car
+[ERROR] 2019-06-13 00:47:54.027 [main] AdditionToy - Incorrect toy class name: SONG
+[WARN ] 2019-06-13 00:47:54.028 [main] ToyDataValidation - Incorrect toy name
+[WARN ] 2019-06-13 00:47:54.028 [main] ToyDataValidation - Incorrect toy age-group: 
+[WARN ] 2019-06-13 00:47:54.028 [main] ToyDataValidation - Incorrect toy size: rubber
+[ERROR] 2019-06-13 00:47:54.028 [main] ToyDataValidation - Incorrect toy cost: yellow
+[INFO ] 2019-06-13 00:47:54.028 [main] AdditionToy - Toy successfully added: Ball
+[INFO ] 2019-06-13 00:47:54.030 [main] AdditionToy - Toy successfully added: Fanny_Cubes
+[WARN ] 2019-06-13 00:47:54.030 [main] ToyDataValidation - Incorrect toy color
+[ERROR] 2019-06-13 00:47:54.030 [main] ToyDataValidation - Incorrect toy cost: 
+[ERROR] 2019-06-13 00:47:54.030 [main] ToyDataValidation - Incorrect toy number wheels: 183.6
+[INFO ] 2019-06-13 00:47:54.030 [main] AdditionToy - Toy successfully added: Police_Car
+[INFO ] 2019-06-13 00:47:54.031 [main] AdditionToy - Toy successfully added: Dancer
+[INFO ] 2019-06-13 00:47:54.031 [main] AdditionToy - Toy successfully added: Dancer

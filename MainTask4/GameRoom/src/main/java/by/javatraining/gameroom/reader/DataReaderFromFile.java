@@ -23,7 +23,7 @@ public class DataReaderFromFile {
         FileValidation fileValidation = new FileValidation();
 
         if (!fileValidation.validateFile(file)) {
-            log.error("Error: incorrect file" + file);
+            log.error("Incorrect file" + file);
             throw new DataFileReaderException("Incorrect file: " + file);
         }
 
@@ -34,6 +34,7 @@ public class DataReaderFromFile {
                 stringList.add(dataLine);
             }
         } catch (IOException e) {
+            log.error("Incorrect read file" + file);
             throw new DataFileReaderException(e);
         }
         return stringList;

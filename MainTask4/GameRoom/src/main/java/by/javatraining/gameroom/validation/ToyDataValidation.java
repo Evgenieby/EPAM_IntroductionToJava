@@ -2,15 +2,24 @@ package by.javatraining.gameroom.validation;
 
 import by.javatraining.gameroom.enums.Age;
 import by.javatraining.gameroom.enums.Size;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
 public class ToyDataValidation {
 
+    private static Logger log = LogManager.getLogger(ToyDataValidation.class);
+
     public boolean validateNameToy(String parameter) {
-        return (parameter != null && parameter.length() != 0);
+        if(parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy name");
+            return false;
+        }
+        return true;
     }
 
     public boolean validateAgeGroupToy(String parameter) {
         if (parameter == null) {
+            log.warn("Incorrect toy age-group");
             return false;
         }
 
@@ -19,15 +28,21 @@ public class ToyDataValidation {
                 return true;
             }
         }
+        log.warn("Incorrect toy age-group: " + parameter);
         return false;
     }
 
     public boolean validateMaterialToy(String parameter) {
-        return (parameter != null && parameter.length() != 0);
+        if(parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy material");
+            return false;
+        }
+        return true;
     }
 
     public boolean validateSizeToy(String parameter) {
         if (parameter == null) {
+            log.warn("Incorrect toy size");
             return false;
         }
 
@@ -36,15 +51,21 @@ public class ToyDataValidation {
                 return true;
             }
         }
+        log.warn("Incorrect toy size: " + parameter);
         return false;
     }
 
     public boolean validateColorToy(String parameter) {
-        return (parameter != null && parameter.length() != 0);
+        if(parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy color");
+            return false;
+        }
+        return true;
     }
 
     public boolean validateCostToy(String parameter) {
         if (parameter == null) {
+            log.warn("Incorrect toy cost");
             return false;
         }
 
@@ -52,12 +73,14 @@ public class ToyDataValidation {
             Double.parseDouble(parameter);
             return true;
         } catch (NumberFormatException e) {
+            log.error("Incorrect toy cost: " + parameter);
             return false;
         }
     }
 
     public boolean validateNumberWheelsToy(String parameter) {
         if (parameter == null) {
+            log.warn("Incorrect toy number wheels");
             return false;
         }
 
@@ -65,23 +88,40 @@ public class ToyDataValidation {
             Integer.parseInt(parameter);
             return true;
         } catch (NumberFormatException e) {
+            log.error("Incorrect toy number wheels: " + parameter);
             return false;
         }
     }
 
     public boolean validateHairColorToy(String parameter) {
-        return (parameter != null && parameter.length() != 0);
+        if(parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy hair color");
+            return false;
+        }
+        return true;
     }
 
     public boolean validateClothesToy(String parameter) {
-        return (parameter != null && parameter.length() != 0);
+        if(parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy clothes");
+            return false;
+        }
+        return true;
     }
 
     public boolean validateShapeToy(String parameter) {
-        return (parameter != null && parameter.length() != 0);
+        if(parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy shape");
+            return false;
+        }
+        return true;
     }
 
     public boolean validatePictureToy(String parameter) {
-        return (parameter != null && parameter.length() != 0);
+        if(parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy picture");
+            return false;
+        }
+        return true;
     }
 }
