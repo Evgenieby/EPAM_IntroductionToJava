@@ -14,7 +14,7 @@ public class AdditionToy {
 
     private static Logger log = LogManager.getLogger(AdditionToy.class);
 
-    private static final String SEPARATOR_REGEX = "[ ,|!]";
+    private static final String SEPARATOR_REGEX = "[,|!]";
     private ToyFactory toyFactory = new ToyFactory();
     private GameRoom gameRoom;
     private ToysRepository toysRepository;
@@ -51,6 +51,10 @@ public class AdditionToy {
         double moneyLimit = gameRoom.getMoneyLimit();
         double tempTotalCost = totalCostToys + toy.getCost();
 
-        return tempTotalCost <= moneyLimit;
+        if (tempTotalCost <= moneyLimit) {
+            return true;
+        }
+        log.warn("Cash limit exceeded");
+        return false;
     }
 }

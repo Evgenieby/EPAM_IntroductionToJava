@@ -11,7 +11,7 @@ public class RoomCreator {
 
     private static Logger log = LogManager.getLogger(RoomCreator.class);
 
-    private static final String SEPARATOR_REGEX = "[ ,|!]";
+    private static final String SEPARATOR_REGEX = "[,|!]";
 
     public static GameRoom createRoom(List<String> stringList) {
         RoomDataValidation dataValidation = new RoomDataValidation();

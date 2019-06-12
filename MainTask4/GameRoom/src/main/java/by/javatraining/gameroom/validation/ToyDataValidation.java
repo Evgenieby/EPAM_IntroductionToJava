@@ -11,15 +11,15 @@ public class ToyDataValidation {
 
     public boolean validateNameToy(String parameter) {
         if(parameter == null || parameter.isEmpty()) {
-            log.warn("Incorrect toy name");
+            log.warn("Incorrect toy name.");
             return false;
         }
         return true;
     }
 
     public boolean validateAgeGroupToy(String parameter) {
-        if (parameter == null) {
-            log.warn("Incorrect toy age-group");
+        if (parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy age-group.");
             return false;
         }
 
@@ -34,15 +34,15 @@ public class ToyDataValidation {
 
     public boolean validateMaterialToy(String parameter) {
         if(parameter == null || parameter.isEmpty()) {
-            log.warn("Incorrect toy material");
+            log.warn("Incorrect toy material.");
             return false;
         }
         return true;
     }
 
     public boolean validateSizeToy(String parameter) {
-        if (parameter == null) {
-            log.warn("Incorrect toy size");
+        if (parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy size.");
             return false;
         }
 
@@ -57,15 +57,15 @@ public class ToyDataValidation {
 
     public boolean validateColorToy(String parameter) {
         if(parameter == null || parameter.isEmpty()) {
-            log.warn("Incorrect toy color");
+            log.warn("Incorrect toy color.");
             return false;
         }
         return true;
     }
 
     public boolean validateCostToy(String parameter) {
-        if (parameter == null) {
-            log.warn("Incorrect toy cost");
+        if (parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy cost.");
             return false;
         }
 
@@ -79,8 +79,8 @@ public class ToyDataValidation {
     }
 
     public boolean validateNumberWheelsToy(String parameter) {
-        if (parameter == null) {
-            log.warn("Incorrect toy number wheels");
+        if (parameter == null || parameter.isEmpty()) {
+            log.warn("Incorrect toy number wheels.");
             return false;
         }
 
@@ -95,7 +95,7 @@ public class ToyDataValidation {
 
     public boolean validateHairColorToy(String parameter) {
         if(parameter == null || parameter.isEmpty()) {
-            log.warn("Incorrect toy hair color");
+            log.warn("Incorrect toy hair color.");
             return false;
         }
         return true;
@@ -103,7 +103,7 @@ public class ToyDataValidation {
 
     public boolean validateClothesToy(String parameter) {
         if(parameter == null || parameter.isEmpty()) {
-            log.warn("Incorrect toy clothes");
+            log.warn("Incorrect toy clothes.");
             return false;
         }
         return true;
@@ -111,7 +111,7 @@ public class ToyDataValidation {
 
     public boolean validateShapeToy(String parameter) {
         if(parameter == null || parameter.isEmpty()) {
-            log.warn("Incorrect toy shape");
+            log.warn("Incorrect toy shape.");
             return false;
         }
         return true;
@@ -119,7 +119,7 @@ public class ToyDataValidation {
 
     public boolean validatePictureToy(String parameter) {
         if(parameter == null || parameter.isEmpty()) {
-            log.warn("Incorrect toy picture");
+            log.warn("Incorrect toy picture.");
             return false;
         }
         return true;
